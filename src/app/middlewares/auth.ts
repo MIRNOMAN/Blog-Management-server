@@ -8,7 +8,7 @@ import catchAsync from '../utils/catchAsync'
 
 
 const auth = (...requiredRoles: TUserRole[]) => {
-  return catchAsync(async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+  return catchAsync(async (req: Request, res: Response, next: NextFunction) => {
     const authHeader = req.headers.authorization
     const token = authHeader && authHeader.split(' ')[1]
 
