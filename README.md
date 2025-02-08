@@ -1,4 +1,4 @@
-echo "# Project Name: Blog Management System
+### Project Name: Blog Management System
 
 ## How to Run the Project
 
